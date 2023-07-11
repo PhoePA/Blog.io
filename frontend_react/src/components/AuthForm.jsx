@@ -52,7 +52,9 @@ const AuthForm = () => {
       ) : (
         <p className="create-acc">
           Already have an account?{" "}
-          <Link to={"/auth?mode=login"}>Login Here!</Link>
+          <Link to={"/auth?mode=login"} className="reg">
+            Login Here!
+          </Link>
         </p>
       )}
     </section>

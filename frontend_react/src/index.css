@@ -176,10 +176,6 @@ textarea {
   opacity: 0.6;
   transition: 0.2s;
 }
-.btn:hover {
-  background-color: #3e8e41;
-  color: white;
-}
 
 .edit-delete {
   display: flex;
@@ -209,6 +205,12 @@ textarea {
   margin-top: 8px;
 }
 
+.login-btn:hover {
+  font-size: 20px;
+  color: #e8cf0e;
+  background-color: #000;
+}
+
 form div label {
   color: white;
 }
@@ -230,7 +232,8 @@ form div label {
 }
 
 .reg:hover {
-  color: black;
+  color: #e8cf0e;
+  background-color: #000;
 }
 
 .loading {
