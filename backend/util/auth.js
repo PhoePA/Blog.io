@@ -4,7 +4,7 @@ const { NotAuthError } = require("./errors");
 const dotenv = require("dotenv");
 dotenv.config();
 
-const KEY = process.env.JWT_KEY;
+const KEY = process.env.REACT_APP_JWT_KEY;
 
 function createJSONToken(email) {
   console.log(KEY);
